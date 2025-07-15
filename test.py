@@ -18,4 +18,17 @@ print(x,y,z)
 x="His"
 def myfunc():
     print(x  + "pen")
-myfunc()    
+myfunc() 
+x="awesome"
+def myfunc():
+    global x
+    x="super"
+myfunc()     
+print(x+ "car")
+#data type
+x=20
+y=2.2
+z=ravi
+a=["apple","orange","banana"]
+b=("apple","orange","banana")
+
